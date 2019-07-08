@@ -1,0 +1,68 @@
+@mixin flexCenter($direction){
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: $direction;
+}
+@mixin jcsb(){
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+}
+@mixin jcsa(){
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+  align-items: center;
+}
+@mixin ptl{
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+
+@mixin aic {
+  display: flex;
+  align-items: center;
+}
+
+@mixin brdr {
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+@mixin bodybgclr () {
+  background-color: #F8F8FC;
+}
+@mixin headerscolor {
+  color: #5C7BE1;
+}
+@mixin emptybar{
+  background-color: #EAEAF4;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 15px;
+}
+@mixin border-lr {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+@mixin boxes-style{
+  border-radius: 4px;
+  display: flex;
+  background-color:white;
+  height: 100px;
+  width: 220px;
+  margin: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 20px -6px rgba(110, 110, 110, 0.75);
+}
+@mixin icon-dash{
+  margin: 0 15px 0 10px;
+  color:$icon;
+}
+  
